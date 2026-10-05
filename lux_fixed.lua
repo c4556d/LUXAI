@@ -28,7 +28,7 @@ local API_KEY              = ""
 local API_TIMEOUT_SECONDS  = 15
 local API_PROVIDER         = "gemini"
 local GROQ_MODEL_URL       = "https://api.groq.com/openai/v1/chat/completions"
-local GROQ_MODEL           = "llama-3.3-70b-versatile"
+local GROQ_MODEL           = "openai/gpt-oss-120b"
 local GEMINI_MODEL_URL     = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
 local PRIVATE_MODE = true
